@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #222;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+
+            justify-content: center;
+            align-items: center;
+            font-family: monospace;
+        }
+
+        #collapse-btn {
+            background: none;
+            color: #222;
+            border: none;
+            padding: 10px;
+            margin-right: 0px;
+            cursor: pointer;
+
+        }
+
+        #collapse-btn img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .question {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #ffffff;
+            text-shadow: 0 0 2px #00c0ff, 0 0 4px #00c0ff, 0 0 6px #00c0ff, 0 0 8px #f00;
+            background-color: #424242;
+            padding: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            border: 1px solid #00c0ff;
+            border-radius: 5px;
+        }
+
+        .answer {
+            font-size: 1em;
+            color: #fc6666;
+            text-shadow: 0 0 2px #ff3f3f, 0 0 4px #ff3f3f, 0 0 6px #ff3f3f, 0 0 8px #00c0ff;
+            background-color: #222;
+            padding: 10px;
+            margin-bottom: 20px;
+            display: none;
+            font-weight: bold;
+        }
+
+
+        header {
+            position: fixed;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #222;
+            padding: 0px 0;
+            margin: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+
+        .logo {
+            width: auto;
+            height: 10vh;
+        }
+
+        #faq {
+            position: relative;
+            padding: 30px;
+            margin-top: 10vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 1000px;
+            width: 80%;
+            background-color: #222;
+            border: 1px solid #00c0ff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00c0ff;
+        }
+
+        img.background {
+            position: fixed;
+            align-items: center;
+            justify-content: center;
+            top: 0px;
+            z-index: -1;
+            width: auto;
+            height: 100%;
+            -webkit-filter: blur(3px); /* Safari 6.0 - 9.0 */
+            filter: blur(3px);
+        }
+
+        #search-input {
+            max-width: 1000px;
+            width: 100%;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #00c0ff;
+            border-radius: 5px;
+            background-color: #222;
+            color: #fff;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        #search-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1em;
+            text-align: center;
+            box-shadow: 0px 0px 20px red;
+        }
+        @media (max-width: 768px) {
+            body {
+
+                font-size: 14px;
+            }
+            img.background {
+                content: url("img/bg-mobile.jpeg");
+
+            }
+
+            #faq {
+                width: 80%;
+                background-color: #222;
+                border: 2px solid #00c0ff;
+                border-radius: 10px;
+            }
+
+
+            .logo {
+                width: auto;
+                height: 10vh;
+            }
+
+        }
+
+
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const questions = document.querySelectorAll('.question');
+            console.log('Questions:', questions);
+            questions.forEach((question) => {
+                console.log('Question:', question);
+                question.addEventListener('click', () => {
+                    console.log('Clicked question:', question);
+                    const answer = question.nextElementSibling;
+                    console.log('Answer:', answer);
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                    } else {
+                        answer.style.display = 'block';
+                    }
+                    console.log('Answer display:', answer.style.display);
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('search-input');
+            const searchBtn = document.getElementById('search-btn');
+            const questions = document.querySelectorAll('.question');
+            const answers = document.querySelectorAll('.answer');
+            const collapseBtn = document.getElementById('collapse-btn');
+            const collapseIcon = collapseBtn.querySelector('img');
+            let isCollapsed = true;
+
+            searchBtn.addEventListener('click', filterQuestions);
+            searchInput.addEventListener('keyup', filterQuestions);
+
+            collapseBtn.addEventListener('click', function () {
+                toggleAnswers();
+            });
+
+            // Collapse the answers by default
+            answers.forEach((answer) => {
+                answer.style.display = 'none';
+            });
+
+            function filterQuestions() {
+                const query = searchInput.value.toLowerCase();
+                questions.forEach((question) => {
+                    const answer = question.nextElementSibling;
+                    if (question.textContent.toLowerCase().includes(query) || answer.textContent.toLowerCase().includes(query)) {
+                        question.style.display = 'block';
+                        answer.style.display = isCollapsed ? 'none' : 'block';
+                    } else {
+                        question.style.display = 'none';
+                        answer.style.display = 'none';
+                    }
+                });
+            }
+
+            function toggleAnswers() {
+                answers.forEach((answer) => {
+                    answer.style.display = isCollapsed ? 'block' : 'none';
+                });
+                collapseIcon.src = isCollapsed ? 'img/colapsar.png' : 'img/expandir.png';
+                isCollapsed = !isCollapsed;
+                filterQuestions();
+            }
+        });
+    </script>
+
+</head>
+<body>
+<img src="img/bg-large.jpg" alt="" class="background">
+<header>
+    <img src="img/logoss.png" alt="Logo Saint Seiya" class="logo">
+    <input type="text" placeholder="Search..." id="search-input">
+    <button id="search-btn">Search</button>
+    <button id="collapse-btn"><img src="img/expandir.png"></button>
+</header>
+
+<div id="faq">
+
+    <div class="question">Up to which level can the accessories by enhanced?</div>
+    <div class="answer">A) 5. (Choices: 4, 5, 6, 7)</div>
+
+    <div class="question">In the game, which Knight is immune to poisoning effect?</div>
+    <div class="answer">A) Aphrodite (Pisces Gold Knight). (Choices: Milo, Aphrodite, Algol, Ikki)</div>
+
+    <div class="question">How many kinds of star images of constellations are there in Knight Seiya: Legend of
+        Justice?
+    </div>
+    <div class="answer">A) 6. (Choices: 4, 5, 6, 7)</div>
+
+    <div class="question">What is the maximum amount of points Milo's Scarlet Needle can hit?</div>
+    <div class="answer">A) 15. (Choices: 12, 13, 14, 15)</div>
+
+    <div class="question">Which cloth-user is the only saint with the ability Rebirth?</div>
+    <div class="answer">A) Ikki (Phoenix). (Choices: Ikki, Shaka, Saga, Seiya)</div>
+
+    <div class="question">Who served as Hyoga's mentor before he received the Cygnus cloth?</div>
+    <div class="answer">A) Camus (Aquarius). (Choices: Camus, Saori, Marin, Dohko)</div>
+
+    <div class="question">Who is the bosom friend of Aquarius Camus?</div>
+    <div class="answer">A) Miro (Scorpio). (Choices: Hyoga, Shura, Miro, Saga)</div>
+
+    <div class="question">Whose Might is the MSOPETHAMENOS?</div>
+    <div class="answer">A) Athena. (Choices: Seiya, Athena, Shiryu, Ikki)</div>
+
+    <div class="question">How many kinds of star images of constellations are there in Knight Seiya: Legend of
+        Justice?
+    </div>
+    <div class="answer">A) 6. (Choices: 4, 5, 6, 7)</div>
+
+    <div class="question">How many years have past from the last Holy War to this one?</div>
+    <div class="answer">A) 243 (1750AD vs 1993AD) (Choices: 213, 217, 223, 243)</div>
+
+    <div class="question">Which Knight can add shield protection to all teammates?</div>
+    <div class="answer">A) Lizard (Misty) (Choices: Canis Major, Lizard, Whale, Perseus)</div>
+
+    <div class="question">Who is the mentor of Seiya?</div>
+    <div class="answer">A) Aquila Marin (Choices: Libra Doko, Aquila Marin, Scorpio Miro, Aries Mu)</div>
+
+    <div class="question">Up to which layer can Shura's Excalibur trigger blood-sucking effect?</div>
+    <div class="answer">A) 15th (Choices: 8th, 10th, 12th, 15th)</div>
+
+    <div class="question">What is the Combination Skill of Seiya and Hyoga?</div>
+    <div class="answer">A) Pegasus Comet Punch (Choices: Diamond Dust, Pegasus, Meteor Punch, Diamond Meteor Punch,
+        Pegasus Comet Punch)
+    </div>
+
+    <div class="question">At which star level can a Knight unlock the Cloth?</div>
+    <div class="answer">A) 9</div>
+
+    <div class="question">What is the highest level of Excalibur?</div>
+    <div class="answer">A) 15th</div>
+
+    <div class="question">What effect does Scarlet Needle have after stacking to MAX layers?</div>
+    <div class="answer">A) Direct death (Choices: No effect, Direct death, Ability boost, Being controlled)</div>
+
+    <div class="question">In the game, what is the effect of God Blessed?</div>
+    <div class="answer">A) Inmune Control</div>
+
+    <div class="question">At which star level can a Knight unlock the Cloth?</div>
+    <div class="answer">A) 9</div>
+
+    <div class="question">What is the highest level of Excalibur?</div>
+    <div class="answer">A) 15th</div>
+
+    <div class="question">What is the constellation of the Golden Knight, the former Pope Shion?</div>
+    <div class="answer">A) Aries</div>
+
+    <div class="question">Which character can form Combination Skill with Aiolia?</div>
+    <div class="answer">A) Athena</div>
+
+    <div class="question">What needs to be awakened to become a Golden Knight?</div>
+    <div class="answer">A) The Seventh Sense</div>
+
+    <div class="question">Which Knight and Seiya can launch Combination Skill when battling together?</div>
+    <div class="answer">A) Hyoga</div>
+
+    <div class="question">Which of the following states can directly ED the target?</div>
+    <div class="answer">A) Electric effect</div>
+
+    <div class="question">Which of the following characters is Seiya's older sister?</div>
+    <div class="answer">A) Seika</div>
+
+    <div class="question">Who is the only Knight with resurrection ability?</div>
+    <div class="answer">A) Ikki</div>
+
+    <div class="question">Which Golden Knight has the most powerful Psychokinesis?</div>
+    <div class="answer">A) Mu</div>
+
+    <div class="question">Which character in Knight Seiya: Legend of Justice can turn his opponent into stone?</div>
+    <div class="answer">A) Argol</div>
+
+    <div class="question">What is the actual age of Libra Doko?</div>
+    <div class="answer">A) 261</div>
+
+    <div class="question">Which of these Knights is the best at manipulating the cosmos?</div>
+    <div class="answer">A) Mephisto (Choices: Dante, Aiorios, Mu, Mephisto)</div>
+
+    <div class="question">In the game, how many enemies can Shura's Might attack?</div>
+    <div class="answer">A) 3 (Choices: 1, 2, 3, 5)</div>
+
+    <div class="question">Aquila Marin likes which Gold Knight best?</div>
+    <div class="answer">A) Aiolia</div>
+
+    <div class="question">Which of the following characters' Might can silence the enemy?</div>
+    <div class="answer">A) Asterion</div>
+
+    <div class="question">Who is the voice actor of Taurus?</div>
+    <div class="answer">A) Taiten Kusunoki</div>
+
+    <div class="question">Which of the following characters is best at manipulating Cosmo?</div>
+    <div class="answer">A) Mephisto</div>
+
+    <div class="question">Which knight can provide a fire shield?</div>
+    <div class="answer">A) Ban</div>
+
+    <div class="question">Who is the bosom friend of Aquarius Camus?</div>
+    <div class="answer">A) Miro (Scorpio) (Choices: Hyoga, Shura, Miro, Saga)</div>
+
+    <div class="question">Whose Might is the MSOPETHAMENOS?</div>
+    <div class="answer">A) Athena (Misopethamenos is the longevity technique given to Libra Dohko by Athena to allow him
+        to live to 243 and keep the body of an 18 year old) (Choices: Seiya, Athena, Shiryu, Ikki)
+    </div>
+
+    <div class="question">How many kinds of star images of constellations are there in Knight Seiya: Legend of
+        Justice?
+    </div>
+    <div class="answer">A) 6 (Choices: 4, 5, 6, 7)</div>
+
+    <div class="question">How many years have past from the last Holy War to this one?</div>
+    <div class="answer">A) 243 (1750 vs 1993) (Choices: 213, 217, 223, 243)</div>
+
+    <div class="question">Which Knight can add shield protection to all teammates?</div>
+    <div class="answer">A) Lizard (Misty) (Choices: Canis Major, Lizard, Whale, Perseus)</div>
+
+    <div class="question">Who is the mentor of Seiya?</div>
+    <div class="answer">A) Aquila Marin (Choices: Libra Doko, Aquila Marin, Scorpio Miro, Aries Mu)</div>
+
+    <div class="question">Up to which layer can Shura's Excalibur trigger blood-sucking effect?</div>
+    <div class="answer">A) 15 (Choices: 8th, 10th, 12th, 15th)</div>
+
+    <div class="question">What is the Combination Skill of Seiya and Hyoga?</div>
+    <div class="answer">A) Pegasus Comet Punch (Choices: Diamond Dust, Pegasus, Meteor Punch, Diamond Meteor Punch,
+        Pegasus Comet Punch)
+    </div>
+
+    <div class="question">What effect does Scarlet Needle have after stacking to MAX layers?</div>
+    <div class="answer">A) Direct death (Choices: No effect, Direct death, Ability boost, Being controlled)</div>
+
+    <div class="question">How many years have past from the last Holy War to this one?</div>
+    <div class="answer">A) 243 (1750AD vs 1993AD) (Choices: 213, 217, 223, 243)</div>
+
+    <div class="question">In the game, what is the effect of [chaos]?</div>
+    <div class="answer">A) Attack any target (including allies) (Choices: Flee in disorder, Attack any target, HP
+        reduction, Silky)
+    </div>
+
+    <div class="question">In the original work, who is known as [the man who is almost a god]?</div>
+    <div class="answer">A) Shaka (Virgo has that whole Budha's palm motif - the only other choice would've been Saga as
+        Pope Ares but he stole that identity from Pope Shion secretly and only impersonated being the Master) (Choices:
+        Saga, Shaka, Doko, Aioros)
+    </div>
+
+    <div class="question">Who can cause damage to all enemies after death?</div>
+    <div class="answer">A) Black Phoenix (Choices: Ikki, Black Phoenix, Ptolmeny, Capella)</div>
+
+    <div class="question">Who is the bosom friend of Aquarius Camus?</div>
+    <div class="answer">A) Milo (Scorpio) (Repeat of Aquarius's Bosom friend)</div>
+
+    <div class="question">What is the relationship between Aquarius Camus and Cygnus Hyoga?</div>
+    <div class="answer">A) Mentor and Apprentice (Choices: Father and son, Good friends, Personal enemies, Mentor and
+        apprentice)
+    </div>
+
+    <div class="question">Which star-level of Knights can be automatically dismissed by using fighter severance?</div>
+    <div class="answer">A) 2 (Choices: 1, 2, 3, 4)</div>
+
+    <div class="question">Which character did Seiya defeat to get the Pegasus Cloth?</div>
+    <div class="answer">A) Cassios (Choices: Shina, Aiolia, Marin, Cassios)</div>
+
+    <div class="question">Which of the following characters will release death skills when killed in the action?</div>
+    <div class="answer">A) Aphrodite</div>
+
+    <div class="question">Which of the following characters has no bleeding or poisoning effect?</div>
+    <div class="answer">A) Aiolia</div>
+
+    <div class="question">Which Knight has successfully assassinated Miss Saori?</div>
+    <div class="answer">A) Sagittarius</div>
+
+    <div class="question">How many Knights does Athena have?</div>
+    <div class="answer">A) 88</div>
+
+    <div class="question">The only one who [hung up] Phoenix Ikki and beat him is?</div>
+    <div class="answer">A) Tokumaru Tatsumi</div>
+
+    <div class="question">If Hyoga dies, will Seiya still be able to release the Combination Skill?</div>
+    <div class="answer">A) No</div>
+
+    <div class="question">Up to which layer can Milo's Scarlet Needle stack up?</div>
+    <div class="answer">A) 15th</div>
+
+    <div class="question">Which of the following does not belong to the control effect?</div>
+    <div class="answer">A) Bleeding</div>
+
+    <div class="question">How many enemies can Camus control at one time?</div>
+    <div class="answer">A) 5</div>
+
+</div>
+
+
+</body>
+</html>
