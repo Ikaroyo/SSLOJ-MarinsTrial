@@ -77,8 +77,9 @@
         }
 
         .logo {
+            margin: 15px;
             width: auto;
-            height: 10vh;
+            height: 5vh;
         }
 
         #faq {
@@ -114,12 +115,20 @@
             padding: 10px;
             margin: 10px;
             border: 1px solid #00c0ff;
-            border-radius: 5px;
+            border-radius: 25px;
             background-color: #222;
             color: #fff;
             font-size: 1em;
             font-weight: bold;
         }
+        #search-input:hover{
+            color: white;
+            border: none;
+            padding: 11px;
+            border-radius: 25px;
+            box-shadow: 0px 0px 20px #FF3333;
+        }
+
         #search-btn {
             background-color: red;
             color: white;
@@ -130,11 +139,22 @@
             text-align: center;
             box-shadow: 0px 0px 20px red;
         }
+        #search-btn:hover {
+            background-color: #FF3333;
+            color: white;
+            border: none;
+            padding: 10px;
+
+            font-size: 16px;
+            text-align: center;
+            box-shadow: 0px 0px 20px #FF3333;
+        }
         @media (max-width: 768px) {
             body {
 
                 font-size: 14px;
             }
+
             img.background {
                 content: url("img/bg-mobile.jpeg");
 
@@ -149,12 +169,10 @@
 
 
             .logo {
-                width: auto;
-                height: 10vh;
+                margin: 5px;
             }
 
         }
-
 
     </style>
 
@@ -222,13 +240,18 @@
                 filterQuestions();
             }
         });
+
+
     </script>
+
+
 
 </head>
 <body>
+
 <img src="img/bg-large.jpg" alt="" class="background">
 <header>
-    <img src="img/logoss.png" alt="Logo Saint Seiya" class="logo">
+    <img src="img/logoss1.png" alt="Logo Saint Seiya" class="logo">
     <input type="text" placeholder="Search..." id="search-input">
     <button id="search-btn">Search</button>
     <button id="collapse-btn"><img src="img/expandir.png"></button>
