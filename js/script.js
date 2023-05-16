@@ -1,56 +1,52 @@
 function agregarEventListeners() {
-    const questions = document.querySelectorAll('.question');
-    console.log('Questions:', questions);
+    const questions = document.querySelectorAll(".question");
+
     questions.forEach((question) => {
-        console.log('Question:', question);
-        question.addEventListener('click', () => {
-            console.log('Clicked question:', question);
+        question.addEventListener("click", () => {
             const answer = question.nextElementSibling;
-            console.log('Answer:', answer);
-            if (answer.style.display === 'block') {
-                answer.style.display = 'none';
-            } else {
-                answer.style.display = 'block';
-            }
-            console.log('Answer display:', answer.style.display);
+            answer.style.display = answer.style.display === "block" ? "none" : "block";
         });
     });
 
-    const searchInput = document.getElementById('search-input');
-    const searchBtn = document.getElementById('search-btn');
+    const searchInput = document.getElementById("search-input");
+    const searchBtn = document.getElementById("search-btn");
 
-    searchBtn.addEventListener('click', filterQuestions);
-    searchInput.addEventListener('keyup', filterQuestions);
-    searchInput.addEventListener('search', filterQuestions);
+    searchBtn.addEventListener("click", filterQuestions);
+    searchInput.addEventListener("input", filterQuestions);
 
-    const collapseBtn = document.getElementById('collapse-btn');
-    const collapseIcon = collapseBtn.querySelector('img');
+    const collapseBtn = document.getElementById("collapse-btn");
+    const collapseIcon = collapseBtn.querySelector("img");
     let isCollapsed = true;
 
-    collapseBtn.addEventListener('click', function () {
-        toggleAnswers();
-    });
+    collapseBtn.addEventListener("click", toggleAnswers);
 
     function filterQuestions() {
         const query = searchInput.value.toLowerCase();
+
         questions.forEach((question) => {
             const answer = question.nextElementSibling;
-            if (question.textContent.toLowerCase().includes(query) || answer.textContent.toLowerCase().includes(query)) {
-                question.style.display = 'block';
-                answer.style.display = isCollapsed ? 'none' : 'block';
+            const questionText = question.textContent.toLowerCase();
+            const answerText = answer.textContent.toLowerCase();
+
+            if (questionText.includes(query) || answerText.includes(query)) {
+                question.style.display = "block";
+                answer.style.display = isCollapsed ? "none" : "block";
             } else {
-                question.style.display = 'none';
-                answer.style.display = 'none';
+                question.style.display = "none";
+                answer.style.display = "none";
             }
         });
     }
 
     function toggleAnswers() {
+        const answerDisplay = isCollapsed ? "block" : "none";
+
         questions.forEach((question) => {
             const answer = question.nextElementSibling;
-            answer.style.display = isCollapsed ? 'block' : 'none';
+            answer.style.display = answerDisplay;
         });
-        collapseIcon.src = isCollapsed ? 'img/colapsar.png' : 'img/expandir.png';
+
+        collapseIcon.src = isCollapsed ? "img/colapsar.png" : "img/expandir.png";
         isCollapsed = !isCollapsed;
         filterQuestions();
     }
