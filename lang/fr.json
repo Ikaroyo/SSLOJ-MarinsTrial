@@ -1,0 +1,401 @@
+[
+  {
+    "question": "Lequel des personnages suivants est la sœur aînée de Seiya ?",
+    "answer valid": "Seika",
+    "answer invalid 1": "Marin",
+    "answer invalid 2": "miho",
+    "answer invalid 3": "Shina"
+  },
+  {
+    "question": "Quel âge a Dohko de la Balance ?",
+    "answer valid": "261 ans",
+    "answer invalid 1": "18 années",
+    "answer invalid 2": "263 ans",
+    "answer invalid 3": "30 ans"
+  },
+  {
+    "question": "Quel est l'endroit où Phoenix Ikki a effectué les pratiques spirituelles pour devenir un\n        ",
+    "answer valid": "Île de la Reine de la Mort",
+    "answer invalid 1": "île d'Andromède",
+    "answer invalid 2": "Sibérie",
+    "answer invalid 3": "Sanctuaire"
+  },
+  {
+    "question": "Quelle est la relation entre Aquarius Camus et Hyoga ?",
+    "answer valid": "maître et apprenti",
+    "answer invalid 1": "Amis",
+    "answer invalid 2": "Père et fils",
+    "answer invalid 3": "Ennemi"
+  },
+  {
+    "question": "Quel personnage Seiya a-t-il vaincu pour obtenir le Pegasus Cloth ?",
+    "answer valid": "Cassios",
+    "answer invalid 1": "Ionie",
+    "answer invalid 2": "Marin",
+    "answer invalid 3": "Shina"
+  },
+  {
+    "question": "Lequel des Gold Saint Knights a le plus de pouvoir psychique ?",
+    "answer valid": "moi",
+    "answer invalid 1": "dôko",
+    "answer invalid 2": "Shaka",
+    "answer invalid 3": "Saga"
+  },
+  {
+    "question": "Quel signe du zodiaque est l'ancien Papa Shion Gold Saint Knight ?",
+    "answer valid": "Bélier",
+    "answer invalid 1": "Broyer",
+    "answer invalid 2": "Leo",
+    "answer invalid 3": "Sagittaire"
+  },
+  {
+    "question": "Lequel des chevaliers peut créer un bouclier de feu dans le jeu ?",
+    "answer valid": "Interdire",
+    "answer invalid 1": "ikki",
+    "answer invalid 2": "Babel",
+    "answer invalid 3": "moi"
+  },
+  {
+    "question": "Lequel des chevaliers est immunisé contre l'effet poison dans le jeu ?",
+    "answer valid": "Aphrodite",
+    "answer invalid 1": "Milo",
+    "answer invalid 2": "masque mort",
+    "answer invalid 3": "ichi"
+  },
+  {
+    "question": "Lequel des chevaliers est le seul à pouvoir ressusciter ?",
+    "answer valid": "ikki",
+    "answer invalid 1": "dôko",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "Shaka"
+  },
+  {
+    "question": "Lequel des chevaliers est capable d'augmenter la défense du bouclier de protection pour\n        ",
+    "answer valid": "Lézard",
+    "answer invalid 1": "Baleine",
+    "answer invalid 2": "persée",
+    "answer invalid 3": "Chien majeur"
+  },
+  {
+    "question": "Qui est le maître de Seiya ?",
+    "answer valid": "Aigle Marin",
+    "answer invalid 1": "milo scorpion",
+    "answer invalid 2": "Bélier Mu",
+    "answer invalid 3": "Livre Dohko"
+  },
+  {
+    "question": "Avec quel Chevalier Saint Seiya peut-il aller au combat ensemble et combiner ses techniques ?",
+    "answer valid": "hyōga",
+    "answer invalid 1": "ikki",
+    "answer invalid 2": "éviter",
+    "answer invalid 3": "Shiryū"
+  },
+  {
+    "question": "Comment s'appelle le Chevalier Scorpion ?",
+    "answer valid": "Milo",
+    "answer invalid 1": "choura",
+    "answer invalid 2": "Apollon",
+    "answer invalid 3": "Aphrodite"
+  },
+  {
+    "question": "À qui appartient la suprématie de 「MSOPETHAMENOS」 ?",
+    "answer valid": "athéna",
+    "answer invalid 1": "Seiya",
+    "answer invalid 2": "ikki",
+    "answer invalid 3": "Shiryū"
+  },
+  {
+    "question": "Quelle est la technique combinée de Seiya et Hyoga ?",
+    "answer valid": "Poing de cerf-volant Pégase",
+    "answer invalid 1": "Météore Pégase",
+    "answer invalid 2": "la poussière de diamant",
+    "answer invalid 3": "météore de diamant"
+  },
+  {
+    "question": "Si Hyoga meurt, Seiya peut-il lancer sa technique de combo ?",
+    "answer valid": "Cela ne peut pas être fait",
+    "answer invalid 1": "Oui, vous pouvez",
+    "answer invalid 2": "Faire revivre Hyōga",
+    "answer invalid 3": "Hyōga ne meurt jamais"
+  },
+  {
+    "question": "Lequel des chevaliers suivants a la capacité de se régénérer ?",
+    "answer valid": "athéna",
+    "answer invalid 1": "hyōga",
+    "answer invalid 2": "Capella",
+    "answer invalid 3": "Saga"
+  },
+  {
+    "question": "Lequel des personnages suivants lance la technique de mise à mort lorsqu'il est tué ?",
+    "answer valid": "Aphrodite",
+    "answer invalid 1": "camus",
+    "answer invalid 2": "moi",
+    "answer invalid 3": "Aiolia"
+  },
+  {
+    "question": "Jusqu'où l'Excalibur de Shura doit-elle aller pour faire exploser son effet de drain ?\n        ",
+    "answer valid": "couche 15",
+    "answer invalid 1": "couche 8",
+    "answer invalid 2": "couche 12",
+    "answer invalid 3": "couche 10"
+  },
+  {
+    "question": "Jusqu'où l'aiguille écarlate de Milo peut-elle aller ?",
+    "answer valid": "couche 15",
+    "answer invalid 1": "couche 16",
+    "answer invalid 2": "couche 14",
+    "answer invalid 3": "couche 10"
+  },
+  {
+    "question": "Lequel des Chevaliers peut appliquer Silence à ses ennemis ?",
+    "answer valid": "Astérion",
+    "answer invalid 1": "Sirius",
+    "answer invalid 2": "A donné",
+    "answer invalid 3": "jamien"
+  },
+  {
+    "question": "Quel est l'effet de 【Bénédiction de Dieu】 sur le jeu ?",
+    "answer valid": "Insensible au contrôle des foules",
+    "answer invalid 1": "Augmenter les dégâts d'équipement",
+    "answer invalid 2": "immunisé contre les dommages",
+    "answer invalid 3": "Augmentation de la DÉF"
+  },
+  {
+    "question": "Laquelle des statistiques suivantes peut directement augmenter les dégâts subis par le\n        ",
+    "answer valid": "Charges électriques",
+    "answer invalid 1": "empoisonné",
+    "answer invalid 2": "Brûler",
+    "answer invalid 3": "Hébéter"
+  },
+  {
+    "question": "Quelle est la couche la plus élevée que l'Excalibur de Shura peut atteindre ?",
+    "answer valid": "couche 15",
+    "answer invalid 1": "couche 8",
+    "answer invalid 2": "couche 12",
+    "answer invalid 3": "couche 10"
+  },
+  {
+    "question": "Lequel des éléments suivants est un effet de contrôle des foules ?",
+    "answer valid": "saignement",
+    "answer invalid 1": "voler avec un coup de poing",
+    "answer invalid 2": "Chaos",
+    "answer invalid 3": "Silence"
+  },
+  {
+    "question": "Qu'est-ce que l'【Effet Chaos】 dans le jeu ?",
+    "answer valid": "attaquer n'importe quelle cible",
+    "answer invalid 1": "être en fuite",
+    "answer invalid 2": "Réduire le taux d'atteinte de la cible",
+    "answer invalid 3": "Incapable de bouger"
+  },
+  {
+    "question": "Qui est le doubleur de Taurus ?",
+    "answer valid": "Taiten Kusunoki",
+    "answer invalid 1": "Ryu Seira (Jingluo Liu)",
+    "answer invalid 2": "Hosoya Yoshimasa",
+    "answer invalid 3": "Jun Fukuyama"
+  },
+  {
+    "question": "Combien d'ennemis Camus peut-il contrôler avec son Crowd Control en même temps ?",
+    "answer valid": "5",
+    "answer invalid 1": "4",
+    "answer invalid 2": "2",
+    "answer invalid 3": "3"
+  },
+  {
+    "question": "Quel personnage de 《Saint Seiya : La Légende de Justica》 peut pétrifier ?",
+    "answer valid": "Algol",
+    "answer invalid 1": "Aiolia",
+    "answer invalid 2": "Moïse",
+    "answer invalid 3": "Ptolémée"
+  },
+  {
+    "question": "Lequel des personnages suivants n'a ni effet de saignement ni effet de poison ?",
+    "answer valid": "Aiolia",
+    "answer invalid 1": "choura",
+    "answer invalid 2": "Aphrodite",
+    "answer invalid 3": "ichi"
+  },
+  {
+    "question": "Lequel des personnages suivants est doué pour contrôler le Cosmo ?",
+    "answer valid": "masque mort",
+    "answer invalid 1": "dante",
+    "answer invalid 2": "aiolos",
+    "answer invalid 3": "aldébaran"
+  },
+  {
+    "question": "Qui est nommé [l'homme le plus proche de Dieu] dans l'œuvre originale ?",
+    "answer valid": "Shaka",
+    "answer invalid 1": "Saga",
+    "answer invalid 2": "dôko",
+    "answer invalid 3": "aiolos"
+  },
+  {
+    "question": "Qui était le seul qui [a soulevé] Ikki de Phoenix et l'a frappé ?",
+    "answer valid": "Tatsumi",
+    "answer invalid 1": "Shaka",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "éviter"
+  },
+  {
+    "question": "Combien d'années se sont écoulées entre la dernière guerre sainte et la guerre sainte actuelle ?",
+    "answer valid": "243",
+    "answer invalid 1": "213",
+    "answer invalid 2": "217",
+    "answer invalid 3": "223"
+  },
+  {
+    "question": "Quel Knight Saint a réussi à assassiner Mme Saori ?",
+    "answer valid": "sagitta",
+    "answer invalid 1": "Centaure",
+    "answer invalid 2": "Orion",
+    "answer invalid 3": "Lyre"
+  },
+  {
+    "question": "Combien de chevaliers saints Athéna possède-t-elle ?",
+    "answer valid": "88",
+    "answer invalid 1": "12",
+    "answer invalid 2": "78",
+    "answer invalid 3": "85"
+  },
+  {
+    "question": "Quel effet cela peut-il donner lorsque l'aiguille écarlate atteint la dernière couche maximale ?",
+    "answer valid": "mort immédiate",
+    "answer invalid 1": "Sans effet",
+    "answer invalid 2": "renforcer les attributs",
+    "answer invalid 3": "Être contrôlé par Crowd Control"
+  },
+  {
+    "question": "Combien d'ennemis peut Shura Supremacy dans le jeu au maximum?",
+    "answer valid": "3",
+    "answer invalid 1": "2",
+    "answer invalid 2": "1",
+    "answer invalid 3": "5"
+  },
+  {
+    "question": "Quel personnage peut combiner des techniques avec Aiolia ?",
+    "answer valid": "athéna",
+    "answer invalid 1": "Seiya",
+    "answer invalid 2": "moi",
+    "answer invalid 3": "ikki"
+  },
+  {
+    "question": "Combien y a-t-il de types de signes dans 《Saint Seiya : La Légende de Justica》 ?",
+    "answer valid": "6 sortes",
+    "answer invalid 1": "4 sortes",
+    "answer invalid 2": "5 sortes",
+    "answer invalid 3": "7 sortes"
+  },
+  {
+    "question": "Qui peut causer des dommages à ses ennemis après la mort ?",
+    "answer valid": "Phénix noir",
+    "answer invalid 1": "ikki",
+    "answer invalid 2": "Capella",
+    "answer invalid 3": "Ptolémée"
+  },
+  {
+    "question": "Combien d'étoiles les Chevaliers doivent-ils gravir pour débloquer les Tissus ?",
+    "answer valid": "9",
+    "answer invalid 1": "8",
+    "answer invalid 2": "7",
+    "answer invalid 3": "dix"
+  },
+  {
+    "question": "Combien d'étoiles les chevaliers doivent-ils avoir pour être automatiquement virés ?",
+    "answer valid": "2",
+    "answer invalid 1": "3",
+    "answer invalid 2": "4",
+    "answer invalid 3": "1"
+  },
+  {
+    "question": "Avec lequel des Chevaliers Saints d'Or Marin de Águila a-t-il la meilleure relation ?",
+    "answer valid": "Aiolia",
+    "answer invalid 1": "aiolos",
+    "answer invalid 2": "aldébaran",
+    "answer invalid 3": "Aphrodite"
+  },
+  {
+    "question": "Que devez-vous vous réveiller pour être un Gold Saint Knight?",
+    "answer valid": "le septième sens",
+    "answer invalid 1": "Le sixième sens",
+    "answer invalid 2": "le cinquième sens",
+    "answer invalid 3": "le huitième sens"
+  },
+  {
+    "question": "Qui est le meilleur ami du Verseau Camus ?",
+    "answer valid": "Milo",
+    "answer invalid 1": "choura",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "hyōga"
+  },
+  {
+    "question": "Qui est le plus grand Chevalier Saint ?",
+    "answer valid": "Algethi",
+    "answer invalid 1": "aldébaran",
+    "answer invalid 2": "Cassios",
+    "answer invalid 3": "Moïse"
+  },
+  {
+    "question": "Qui est le plus bas Chevalier Saint ?",
+    "answer valid": "dôko",
+    "answer invalid 1": "A donné",
+    "answer invalid 2": "ichi",
+    "answer invalid 3": "jamien"
+  },
+  {
+    "question": "Avec qui Athéna est-elle sous pression dans la saga Poséidon ?",
+    "answer valid": "pilier central",
+    "answer invalid 1": "temple de Poséidon",
+    "answer invalid 2": "Océan Antarctique",
+    "answer invalid 3": "Océan Pacifique"
+  },
+  {
+    "question": "Qui a sauvé Thetis de Mermaid ?",
+    "answer valid": "julien",
+    "answer invalid 1": "Poséidon",
+    "answer invalid 2": "Baian",
+    "answer invalid 3": "cannon"
+  },
+  {
+    "question": "A quel âge Julien est-il devenu l'incarnation de Poséidon ?",
+    "answer valid": "16 ans",
+    "answer invalid 1": "18 années",
+    "answer invalid 2": "15 ans",
+    "answer invalid 3": "20 ans"
+  },
+  {
+    "question": "Quelles ont été les conséquences de jeter un coup de poing sur Poséidon dans la saga Poséidon ?",
+    "answer valid": "rebondissez-vous",
+    "answer invalid 1": "ATT échoué",
+    "answer invalid 2": "être puni",
+    "answer invalid 3": "Bloqué par les marins"
+  },
+  {
+    "question": "Qui a finalement scellé Poséidon dans la saga Poséidon ?",
+    "answer valid": "Le pichet d'Athéna",
+    "answer invalid 1": "La tasse de la haine",
+    "answer invalid 2": "bâton d'athéna",
+    "answer invalid 3": "Trident de Poséidon"
+  },
+  {
+    "question": "Qui a finalement bloqué l'ATK de Poséidon pour Athéna dans Poseidon Saga ?",
+    "answer valid": "cannon",
+    "answer invalid 1": "Seiya",
+    "answer invalid 2": "Shiryū",
+    "answer invalid 3": "Thétis"
+  },
+  {
+    "question": "Qui est connu comme le modèle des Golden Saints Knights ?",
+    "answer valid": "Chevalier Saint de la Balance",
+    "answer invalid 1": "Chevalier Saint de Gemiis",
+    "answer invalid 2": "Chevalier Saint de Pégase",
+    "answer invalid 3": "Capricorne Saint Chevalier"
+  },
+  {
+    "question": "Avec qui Siren Thetis Supremacy a-t-il un effet secret ?",
+    "answer valid": "Empereur de la mer Poiséidon",
+    "answer invalid 1": "Sagittaire Seiya",
+    "answer invalid 2": "Dragon des Mers Kanon",
+    "answer invalid 3": "Sirène Sorrente"
+  }
+]

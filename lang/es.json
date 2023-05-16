@@ -1,0 +1,401 @@
+[
+  {
+    "question": "¿Cuál de los siguientes personajes es la hermana mayor de Seiya?",
+    "answer valid": "Seika",
+    "answer invalid 1": "Marin",
+    "answer invalid 2": "Miho",
+    "answer invalid 3": "Shaina"
+  },
+  {
+    "question": "¿Qué edad real tiene Dohko de Libra?",
+    "answer valid": "261 años",
+    "answer invalid 1": "18 años",
+    "answer invalid 2": "263 años",
+    "answer invalid 3": "30 años"
+  },
+  {
+    "question": "¿Cuál es lugar donde Ikki de Fénix realizó las prácticas espirituales para convertirse en\n        Caballero Saint?",
+    "answer valid": "Isla de la Reina de la Muerte",
+    "answer invalid 1": "Isla de Andromeda",
+    "answer invalid 2": "Siberia",
+    "answer invalid 3": "Santuario"
+  },
+  {
+    "question": "¿Cúal es la relación entre Camus de Acuario y Hyoga?",
+    "answer valid": "Maestro y aprendiz",
+    "answer invalid 1": "Amigos",
+    "answer invalid 2": "Padre e hijo",
+    "answer invalid 3": "Enemigo"
+  },
+  {
+    "question": "¿Qué personaje derrotó Seiya para obtener la Cloth de Pegaso?",
+    "answer valid": "Cassios",
+    "answer invalid 1": "Ionia",
+    "answer invalid 2": "Marin",
+    "answer invalid 3": "Shaina"
+  },
+  {
+    "question": "¿Cuál de los Caballeros Saints de Oro tiene más poder psíquico?",
+    "answer valid": "Mu",
+    "answer invalid 1": "Dohko",
+    "answer invalid 2": "Shaka",
+    "answer invalid 3": "Saga"
+  },
+  {
+    "question": "¿De qué zodiaco es el Caballero Saint de Oro ex Papa Shion?",
+    "answer valid": "Aries",
+    "answer invalid 1": "Libra",
+    "answer invalid 2": "Leo",
+    "answer invalid 3": "Sagitario"
+  },
+  {
+    "question": "¿Cuál de los Caballeros puede crear un escudo de fuego en el juego?",
+    "answer valid": "Ban",
+    "answer invalid 1": "Ikki",
+    "answer invalid 2": "Babel",
+    "answer invalid 3": "Mu"
+  },
+  {
+    "question": "¿Cuál de los Caballeros es inmune al efecto de veneno en el juego?",
+    "answer valid": "Afrodita",
+    "answer invalid 1": "Milo",
+    "answer invalid 2": "Deathmask",
+    "answer invalid 3": "Ichi"
+  },
+  {
+    "question": "¿Cuál de los Caballeros es el único que tiene la habilidad de resucitar?",
+    "answer valid": "Ikki",
+    "answer invalid 1": "Dohko",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "Shaka"
+  },
+  {
+    "question": "¿Cuál de los Caballeros es capaz de aumentar la defensa del escudo de protección para\n        bendecir a todos los aliados del Equipo?",
+    "answer valid": "Lagarto",
+    "answer invalid 1": "Ballena",
+    "answer invalid 2": "Perseo",
+    "answer invalid 3": "Can Mayor"
+  },
+  {
+    "question": "¿Quién es el maestro de Seiya?",
+    "answer valid": "Marin de Águila",
+    "answer invalid 1": "Milo de Escorpio",
+    "answer invalid 2": "Mu de Aries",
+    "answer invalid 3": "Dohko de Libra"
+  },
+  {
+    "question": "¿Con qué Caballero Saint puede Seiya ir juntos a la batalla y combinar técnicas?",
+    "answer valid": "Hyoga",
+    "answer invalid 1": "Ikki",
+    "answer invalid 2": "Shun",
+    "answer invalid 3": "Shiryu"
+  },
+  {
+    "question": "¿Cuál es el nombre del Caballero Saint de Escorpio?",
+    "answer valid": "Milo",
+    "answer invalid 1": "Shura",
+    "answer invalid 2": "Apolo",
+    "answer invalid 3": "Afrodita"
+  },
+  {
+    "question": "¿De quién es la Supremacía de 「MSOPETHAMENOS」?",
+    "answer valid": "Atenea",
+    "answer invalid 1": "Seiya",
+    "answer invalid 2": "Ikki",
+    "answer invalid 3": "Shiryu"
+  },
+  {
+    "question": "¿Cuál es la técnica combinada de Seiya y Hyoga?",
+    "answer valid": "Puño de cometa de Pegaso",
+    "answer invalid 1": "Meteoro de Pegaso",
+    "answer invalid 2": "Polvo de diamante",
+    "answer invalid 3": "Meteoro de diamante"
+  },
+  {
+    "question": "Si Hyoga muere, ¿Puede Seiya lanzar su técnica combinada?",
+    "answer valid": "No se puede",
+    "answer invalid 1": "Sí que se puede",
+    "answer invalid 2": "Revive Hyoga",
+    "answer invalid 3": "Nunca muere Hyōga"
+  },
+  {
+    "question": "¿Cuál de los siguientes Caballeros tiene la capacidad de regenerse?",
+    "answer valid": "Atenea",
+    "answer invalid 1": "Hyoga",
+    "answer invalid 2": "Capella",
+    "answer invalid 3": "Saga"
+  },
+  {
+    "question": "¿Cuál de los siguientes personajes lanza la técnica de muerte cuando muere?",
+    "answer valid": "Afrodita",
+    "answer invalid 1": "Camus",
+    "answer invalid 2": "Mu",
+    "answer invalid 3": "Aioria"
+  },
+  {
+    "question": "¿Hasta qué capa tiene que llegar el Excalibur de Shura para detonar su efecto de drenaje\n        de sangre?",
+    "answer valid": "capa 15",
+    "answer invalid 1": "capa 8",
+    "answer invalid 2": "capa 12",
+    "answer invalid 3": "capa 10"
+  },
+  {
+    "question": "¿Hasta qué capa maxima puede llegar Aguja Escarlata de Milo?",
+    "answer valid": "capa 15",
+    "answer invalid 1": "capa 16",
+    "answer invalid 2": "capa 14",
+    "answer invalid 3": "capa 10"
+  },
+  {
+    "question": "¿Cuál de los Caballeros puede aplicar el Silencio a sus enemigos?",
+    "answer valid": "Asterion",
+    "answer invalid 1": "Sirius",
+    "answer invalid 2": "Dio",
+    "answer invalid 3": "Jamian"
+  },
+  {
+    "question": "¿Cuál es el efecto de【Bendición de Dios】en el juego?",
+    "answer valid": "Inmune al Control de Masas",
+    "answer invalid 1": "Aumentar daño del Equipo",
+    "answer invalid 2": "Inmune al daño",
+    "answer invalid 3": "Aumento de DEF"
+  },
+  {
+    "question": "¿Cuál de los siguientes estados puede aumentar directamente el daño recibido del\n        objetivo?",
+    "answer valid": "Cargas eléctricas",
+    "answer invalid 1": "Envenenado",
+    "answer invalid 2": "Quemadura",
+    "answer invalid 3": "Aturdimiento"
+  },
+  {
+    "question": "¿Cuál es la capa más alta que puede llegar Excalibur de Shura?",
+    "answer valid": "capa 15",
+    "answer invalid 1": "capa 8",
+    "answer invalid 2": "capa 12",
+    "answer invalid 3": "capa 10"
+  },
+  {
+    "question": "¿Cuál de los siguientes es un efecto de Control de Masas?",
+    "answer valid": "Sangrado",
+    "answer invalid 1": "Volar con un golpe",
+    "answer invalid 2": "Caos",
+    "answer invalid 3": "Silencio"
+  },
+  {
+    "question": "¿Cuál es el【efecto de Caos】en el juego?",
+    "answer valid": "Atacar a cualquier objetivo",
+    "answer invalid 1": "Estar en fuga",
+    "answer invalid 2": "Reducir la tasa de dar en el blanco",
+    "answer invalid 3": "Sin poder moverse"
+  },
+  {
+    "question": "¿Quién es el actor de voz de Tauro?",
+    "answer valid": "Taiten Kusunoki",
+    "answer invalid 1": "Ryū Seira (Jingluo Liu)",
+    "answer invalid 2": "Hosoya Yoshimasa",
+    "answer invalid 3": "Jun Fukuyama"
+  },
+  {
+    "question": "¿Cuántos enemigos puede Camus controlar con su Control de Masas al mismo tiempo?",
+    "answer valid": "5",
+    "answer invalid 1": "4",
+    "answer invalid 2": "2",
+    "answer invalid 3": "3"
+  },
+  {
+    "question": "¿Qué personaje en《Saint Seiya: La Leyenda de Justica》puede petrificar?",
+    "answer valid": "Algol",
+    "answer invalid 1": "Aioria",
+    "answer invalid 2": "Moses",
+    "answer invalid 3": "Ptoleomeo"
+  },
+  {
+    "question": "¿Cuál de los siguientes personajes no tiene efecto de sangrado o efecto de veneno?",
+    "answer valid": "Aioria",
+    "answer invalid 1": "Shura",
+    "answer invalid 2": "Afrodita",
+    "answer invalid 3": "Ichi"
+  },
+  {
+    "question": "¿Cuál de los siguientes personajes es hábil en controlar el Cosmo?",
+    "answer valid": "Deathmask",
+    "answer invalid 1": "Dante",
+    "answer invalid 2": "Aioros",
+    "answer invalid 3": "Aldebaran"
+  },
+  {
+    "question": "¿Quién es nombrado como [el hombre más cercano a Dios] en la obra original?",
+    "answer valid": "Shaka",
+    "answer invalid 1": "Saga",
+    "answer invalid 2": "Dohko",
+    "answer invalid 3": "Aioros"
+  },
+  {
+    "question": "¿Quién fue el único que [levantó] a Ikki de Fénix y lo golpeó?",
+    "answer valid": "Tatsumi",
+    "answer invalid 1": "Shaka",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "Shun"
+  },
+  {
+    "question": "¿Cuántos años pasaron desde la última Guerra Santa hasta la actual Guerra Santa?",
+    "answer valid": "243",
+    "answer invalid 1": "213",
+    "answer invalid 2": "217",
+    "answer invalid 3": "223"
+  },
+  {
+    "question": "¿Qué Caballero Saint asesinó con éxito a la Sra. Saori?",
+    "answer valid": "Sagitta",
+    "answer invalid 1": "Centauro",
+    "answer invalid 2": "Orión",
+    "answer invalid 3": "Lyra"
+  },
+  {
+    "question": "¿Cuántos Caballeros Saints tiene Atenea?",
+    "answer valid": "88",
+    "answer invalid 1": "12",
+    "answer invalid 2": "78",
+    "answer invalid 3": "85"
+  },
+  {
+    "question": "¿Qué efecto puede dar cuando la Aguja Escarlata llegue a la última máxima capa?",
+    "answer valid": "muerte inmediata",
+    "answer invalid 1": "Sin efecto",
+    "answer invalid 2": "Reforzar atributos",
+    "answer invalid 3": "Estar controlado por Control de Masas"
+  },
+  {
+    "question": "¿A cuántos enemigos puede la Supremacía de Shura en el juego como máximo?",
+    "answer valid": "3",
+    "answer invalid 1": "2",
+    "answer invalid 2": "1",
+    "answer invalid 3": "5"
+  },
+  {
+    "question": "¿Qué personaje puede combinar ténicas con Aiolia?",
+    "answer valid": "Atenea",
+    "answer invalid 1": "Seiya",
+    "answer invalid 2": "Mu",
+    "answer invalid 3": "Ikki"
+  },
+  {
+    "question": "¿Cuántos tipos de Signo hay en《Saint Seiya: La Leyenda de Justica》?",
+    "answer valid": "6 tipos",
+    "answer invalid 1": "4 tipos",
+    "answer invalid 2": "5 tipos",
+    "answer invalid 3": "7 tipos"
+  },
+  {
+    "question": "¿Quién puede causar daño a sus enemigos después de muerto?",
+    "answer valid": "Fénix Negro",
+    "answer invalid 1": "Ikki",
+    "answer invalid 2": "Capella",
+    "answer invalid 3": "Ptoleomeo"
+  },
+  {
+    "question": "¿Cuántas estrellas tiene que subir los Caballeros para desbloquear las Cloths?",
+    "answer valid": "9",
+    "answer invalid 1": "8",
+    "answer invalid 2": "7",
+    "answer invalid 3": "10"
+  },
+  {
+    "question": "¿Cuántas estrellas deben tener los Caballeros para poder despedirlos automáticamente?",
+    "answer valid": "2",
+    "answer invalid 1": "3",
+    "answer invalid 2": "4",
+    "answer invalid 3": "1"
+  },
+  {
+    "question": "¿Con cuál de los Caballero Saint de Oro tiene la mejor relación con Marin de Águila?",
+    "answer valid": "Aioria",
+    "answer invalid 1": "Aioros",
+    "answer invalid 2": "Aldebaran",
+    "answer invalid 3": "Afrodita"
+  },
+  {
+    "question": "¿Qué hay que despertar para ser un Caballero Saint de Oro?",
+    "answer valid": "El séptimo sentido",
+    "answer invalid 1": "El sexto sentido",
+    "answer invalid 2": "El quinto sentido",
+    "answer invalid 3": "El octavo sentido"
+  },
+  {
+    "question": "¿Quién es el mejor amigo de Camus de Acuario?",
+    "answer valid": "Milo",
+    "answer invalid 1": "Shura",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "Hyoga"
+  },
+  {
+    "question": "¿Quién es el Caballero Saint más alto?",
+    "answer valid": "Algethi",
+    "answer invalid 1": "Aldebaran",
+    "answer invalid 2": "Cassios",
+    "answer invalid 3": "Moses"
+  },
+  {
+    "question": "¿Quién es el Caballero Saint más bajo?",
+    "answer valid": "Dohko",
+    "answer invalid 1": "Dio",
+    "answer invalid 2": "Ichi",
+    "answer invalid 3": "Jamian"
+  },
+  {
+    "question": "¿Atenea con quién está presionera en la saga de Poseidón?",
+    "answer valid": "Pilar Central",
+    "answer invalid 1": "Templo de Poseidón",
+    "answer invalid 2": "Oceano Antártico",
+    "answer invalid 3": "Oceano Pacífico"
+  },
+  {
+    "question": "¿Quién rescató a Tetis de Sirena?",
+    "answer valid": "Julian",
+    "answer invalid 1": "Poseidón",
+    "answer invalid 2": "Baian",
+    "answer invalid 3": "Kanon"
+  },
+  {
+    "question": "¿A qué edad Julián se convirtió en la encarnación de Poseidón?",
+    "answer valid": "16 años",
+    "answer invalid 1": "18 años",
+    "answer invalid 2": "15 años",
+    "answer invalid 3": "20 años"
+  },
+  {
+    "question": "¿Cuáles fueron las consecuencias de lanzar un puño a Poseidón en la saga de Poseidón?",
+    "answer valid": "Rebotar a sí mismo",
+    "answer invalid 1": "ATK facasado",
+    "answer invalid 2": "Ser castigado",
+    "answer invalid 3": "Bloqueado por los Marineros"
+  },
+  {
+    "question": "¿Quién selló finalmente a Poseidón en la saga de Poseidón?",
+    "answer valid": "La jarra de Atenea",
+    "answer invalid 1": "La jarra de la Odicia",
+    "answer invalid 2": "Bastón de Atenea",
+    "answer invalid 3": "Triedente de Poseidón"
+  },
+  {
+    "question": "¿Quién finalmente bloqueó el ATQ de Poseidón por Atenea en la saga de Poseidón?",
+    "answer valid": "Kanon",
+    "answer invalid 1": "Seiya",
+    "answer invalid 2": "Shiryu",
+    "answer invalid 3": "Tetis"
+  },
+  {
+    "question": "¿Quién es conocido como el modelo a seguir de los Caballeros Saints de Oro?",
+    "answer valid": "Caballero Saint de Libra",
+    "answer invalid 1": "Caballero Saint de Gémiis",
+    "answer invalid 2": "Caballero Saint de Pegaso",
+    "answer invalid 3": "Caballero Saint de Capricornio"
+  },
+  {
+    "question": "¿Con quién tiene un efecto secreto de la Supremacía de Tetis de Sirena?",
+    "answer valid": "Emperador del mar Poiseidón",
+    "answer invalid 1": "Seiya de Sagitario",
+    "answer invalid 2": "Kanon del Dragón Marino",
+    "answer invalid 3": "Sorrento de Sirena"
+  }
+]

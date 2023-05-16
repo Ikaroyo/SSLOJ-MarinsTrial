@@ -1,0 +1,401 @@
+[
+  {
+    "question": "Which of the following characters is Seiya's older sister?",
+    "answer valid": "seika",
+    "answer invalid 1": "Marin",
+    "answer invalid 2": "miho",
+    "answer invalid 3": "shina"
+  },
+  {
+    "question": "How old is Dohko of Libra?",
+    "answer valid": "261 years",
+    "answer invalid 1": "18 years",
+    "answer invalid 2": "263 years",
+    "answer invalid 3": "30 years"
+  },
+  {
+    "question": "What is the place where Phoenix Ikki performed the spiritual practices to become a\n        ",
+    "answer valid": "Death Queen Island",
+    "answer invalid 1": "andromeda island",
+    "answer invalid 2": "Siberia",
+    "answer invalid 3": "Sanctuary"
+  },
+  {
+    "question": "What is the relationship between Aquarius Camus and Hyoga?",
+    "answer valid": "master and apprentice",
+    "answer invalid 1": "Friends",
+    "answer invalid 2": "Father and son",
+    "answer invalid 3": "Enemy"
+  },
+  {
+    "question": "Which character did Seiya defeat to obtain the Pegasus Cloth?",
+    "answer valid": "cassios",
+    "answer invalid 1": "Ionia",
+    "answer invalid 2": "Marin",
+    "answer invalid 3": "shina"
+  },
+  {
+    "question": "Which of the Gold Saint Knights has the most psychic power?",
+    "answer valid": "mu",
+    "answer invalid 1": "dohko",
+    "answer invalid 2": "Shaka",
+    "answer invalid 3": "Saga"
+  },
+  {
+    "question": "What zodiac is the former Papa Shion Gold Saint Knight?",
+    "answer valid": "Aries",
+    "answer invalid 1": "Pound",
+    "answer invalid 2": "Leo",
+    "answer invalid 3": "Sagittarius"
+  },
+  {
+    "question": "Which of the Knights can create a fire shield in the game?",
+    "answer valid": "Ban",
+    "answer invalid 1": "ikki",
+    "answer invalid 2": "Babel",
+    "answer invalid 3": "mu"
+  },
+  {
+    "question": "Which of the Knights is immune to the poison effect in the game?",
+    "answer valid": "Aphrodite",
+    "answer invalid 1": "Milo",
+    "answer invalid 2": "death mask",
+    "answer invalid 3": "ichi"
+  },
+  {
+    "question": "Which of the Knights is the only one with the ability to resurrect?",
+    "answer valid": "ikki",
+    "answer invalid 1": "dohko",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "Shaka"
+  },
+  {
+    "question": "Which of the Knights is able to increase the defense of the protection shield to\n        ",
+    "answer valid": "Lizard",
+    "answer invalid 1": "Whale",
+    "answer invalid 2": "perseus",
+    "answer invalid 3": "Canis Major"
+  },
+  {
+    "question": "Who is Seiya's master?",
+    "answer valid": "Eagle Marin",
+    "answer invalid 1": "scorpio milo",
+    "answer invalid 2": "Aries Mu",
+    "answer invalid 3": "Pound Dohko"
+  },
+  {
+    "question": "Which Saint Knight can Seiya go into battle together and combine techniques with?",
+    "answer valid": "hyōga",
+    "answer invalid 1": "ikki",
+    "answer invalid 2": "shun",
+    "answer invalid 3": "Shiryu"
+  },
+  {
+    "question": "What is the name of the Scorpio Knight Saint?",
+    "answer valid": "Milo",
+    "answer invalid 1": "shura",
+    "answer invalid 2": "Apollo",
+    "answer invalid 3": "Aphrodite"
+  },
+  {
+    "question": "Whose Supremacy is 「MSOPETHAMENOS」?",
+    "answer valid": "athena",
+    "answer invalid 1": "seiya",
+    "answer invalid 2": "ikki",
+    "answer invalid 3": "Shiryu"
+  },
+  {
+    "question": "What is the combined technique of Seiya and Hyoga?",
+    "answer valid": "Pegasus Kite Fist",
+    "answer invalid 1": "Pegasus Meteor",
+    "answer invalid 2": "Diamond dust",
+    "answer invalid 3": "diamond meteor"
+  },
+  {
+    "question": "If Hyoga dies, can Seiya cast his combo technique?",
+    "answer valid": "It can't be done",
+    "answer invalid 1": "yes you can",
+    "answer invalid 2": "Revive Hyoga",
+    "answer invalid 3": "Hyōga never dies"
+  },
+  {
+    "question": "Which of the following Knights has the ability to regenerate?",
+    "answer valid": "athena",
+    "answer invalid 1": "hyōga",
+    "answer invalid 2": "Cappella",
+    "answer invalid 3": "Saga"
+  },
+  {
+    "question": "Which of the following characters casts the kill technique when killed?",
+    "answer valid": "Aphrodite",
+    "answer invalid 1": "camus",
+    "answer invalid 2": "mu",
+    "answer invalid 3": "Aiolia"
+  },
+  {
+    "question": "How far does Shura's Excalibur have to go to detonate its drain effect?\n        ",
+    "answer valid": "layer 15",
+    "answer invalid 1": "layer 8",
+    "answer invalid 2": "layer 12",
+    "answer invalid 3": "layer 10"
+  },
+  {
+    "question": "How far can Milo's Scarlet Needle go?",
+    "answer valid": "layer 15",
+    "answer invalid 1": "layer 16",
+    "answer invalid 2": "layer 14",
+    "answer invalid 3": "layer 10"
+  },
+  {
+    "question": "Which of the Knights can apply Silence to their enemies?",
+    "answer valid": "Asterion",
+    "answer invalid 1": "Sirius",
+    "answer invalid 2": "Gave",
+    "answer invalid 3": "Jamian"
+  },
+  {
+    "question": "What is the effect of【God's Blessing】on the game?",
+    "answer valid": "Immune to crowd control",
+    "answer invalid 1": "Increase Equipment Damage",
+    "answer invalid 2": "immune to damage",
+    "answer invalid 3": "DEF Increase"
+  },
+  {
+    "question": "Which of the following stats can directly increase the damage taken from the\n        ",
+    "answer valid": "Electric charges",
+    "answer invalid 1": "poisoned",
+    "answer invalid 2": "Burn",
+    "answer invalid 3": "Daze"
+  },
+  {
+    "question": "What is the highest layer that Shura's Excalibur can reach?",
+    "answer valid": "layer 15",
+    "answer invalid 1": "layer 8",
+    "answer invalid 2": "layer 12",
+    "answer invalid 3": "layer 10"
+  },
+  {
+    "question": "Which of the following is a Crowd Control effect?",
+    "answer valid": "bleeding",
+    "answer invalid 1": "fly with a punch",
+    "answer invalid 2": "Chaos",
+    "answer invalid 3": "Silence"
+  },
+  {
+    "question": "What is the【Chaos effect】in the game?",
+    "answer valid": "attack any target",
+    "answer invalid 1": "be on the run",
+    "answer invalid 2": "Reduce the rate of hitting the target",
+    "answer invalid 3": "unable to move"
+  },
+  {
+    "question": "Who is the voice actor for Taurus?",
+    "answer valid": "Taiten Kusunoki",
+    "answer invalid 1": "Ryu Seira (Jingluo Liu)",
+    "answer invalid 2": "Hosoya Yoshimasa",
+    "answer invalid 3": "Jun Fukuyama"
+  },
+  {
+    "question": "How many enemies can Camus control with his Crowd Control at the same time?",
+    "answer valid": "5",
+    "answer invalid 1": "4",
+    "answer invalid 2": "2",
+    "answer invalid 3": "3"
+  },
+  {
+    "question": "Which character in《Saint Seiya: The Legend of Justica》can petrify?",
+    "answer valid": "Algol",
+    "answer invalid 1": "Aiolia",
+    "answer invalid 2": "Moses",
+    "answer invalid 3": "Ptolemy"
+  },
+  {
+    "question": "Which of the following characters has no bleed effect or poison effect?",
+    "answer valid": "Aiolia",
+    "answer invalid 1": "shura",
+    "answer invalid 2": "Aphrodite",
+    "answer invalid 3": "ichi"
+  },
+  {
+    "question": "Which of the following characters is skilled in controlling the Cosmo?",
+    "answer valid": "death mask",
+    "answer invalid 1": "dante",
+    "answer invalid 2": "aiolos",
+    "answer invalid 3": "aldebaran"
+  },
+  {
+    "question": "Who is named as [the man closest to God] in the original work?",
+    "answer valid": "Shaka",
+    "answer invalid 1": "Saga",
+    "answer invalid 2": "dohko",
+    "answer invalid 3": "aiolos"
+  },
+  {
+    "question": "Who was the only one who [lifted] Ikki from Phoenix and hit him?",
+    "answer valid": "Tatsumi",
+    "answer invalid 1": "Shaka",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "shun"
+  },
+  {
+    "question": "How many years passed from the last Holy War to the current Holy War?",
+    "answer valid": "243",
+    "answer invalid 1": "213",
+    "answer invalid 2": "217",
+    "answer invalid 3": "223"
+  },
+  {
+    "question": "Which Knight Saint successfully assassinated Ms. Saori?",
+    "answer valid": "sagitta",
+    "answer invalid 1": "Centaur",
+    "answer invalid 2": "Orion",
+    "answer invalid 3": "Lyra"
+  },
+  {
+    "question": "How many Saint Knights does Athena have?",
+    "answer valid": "88",
+    "answer invalid 1": "12",
+    "answer invalid 2": "78",
+    "answer invalid 3": "85"
+  },
+  {
+    "question": "What effect can it give when the Scarlet Needle reaches the last maximum layer?",
+    "answer valid": "immediate death",
+    "answer invalid 1": "Without effect",
+    "answer invalid 2": "reinforce attributes",
+    "answer invalid 3": "Being controlled by Crowd Control"
+  },
+  {
+    "question": "How many enemies can Shura Supremacy in the game at most?",
+    "answer valid": "3",
+    "answer invalid 1": "2",
+    "answer invalid 2": "1",
+    "answer invalid 3": "5"
+  },
+  {
+    "question": "What character can combine techniques with Aiolia?",
+    "answer valid": "athena",
+    "answer invalid 1": "seiya",
+    "answer invalid 2": "mu",
+    "answer invalid 3": "ikki"
+  },
+  {
+    "question": "How many kinds of Sign are in《Saint Seiya: The Legend of Justica》?",
+    "answer valid": "6 types",
+    "answer invalid 1": "4 types",
+    "answer invalid 2": "5 types",
+    "answer invalid 3": "7 types"
+  },
+  {
+    "question": "Who can cause damage to his enemies after death?",
+    "answer valid": "Black Phoenix",
+    "answer invalid 1": "ikki",
+    "answer invalid 2": "Cappella",
+    "answer invalid 3": "Ptolemy"
+  },
+  {
+    "question": "How many stars do the Knights have to climb to unlock the Cloths?",
+    "answer valid": "9",
+    "answer invalid 1": "8",
+    "answer invalid 2": "7",
+    "answer invalid 3": "10"
+  },
+  {
+    "question": "How many stars do Knights need to have to be automatically fired?",
+    "answer valid": "2",
+    "answer invalid 1": "3",
+    "answer invalid 2": "4",
+    "answer invalid 3": "1"
+  },
+  {
+    "question": "Which of the Gold Saint Knights does Marin de Águila have the best relationship with?",
+    "answer valid": "Aiolia",
+    "answer invalid 1": "aiolos",
+    "answer invalid 2": "aldebaran",
+    "answer invalid 3": "Aphrodite"
+  },
+  {
+    "question": "What do you have to wake up to be a Gold Saint Knight?",
+    "answer valid": "the seventh sense",
+    "answer invalid 1": "The sixth Sense",
+    "answer invalid 2": "the fifth sense",
+    "answer invalid 3": "the eighth sense"
+  },
+  {
+    "question": "Who is Aquarius Camus's best friend?",
+    "answer valid": "Milo",
+    "answer invalid 1": "shura",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "hyōga"
+  },
+  {
+    "question": "Who is the tallest Saint Knight?",
+    "answer valid": "Algethi",
+    "answer invalid 1": "aldebaran",
+    "answer invalid 2": "cassios",
+    "answer invalid 3": "Moses"
+  },
+  {
+    "question": "Who is the lowest Saint Knight?",
+    "answer valid": "dohko",
+    "answer invalid 1": "Gave",
+    "answer invalid 2": "ichi",
+    "answer invalid 3": "Jamian"
+  },
+  {
+    "question": "Who is Athena in pressure with in the Poseidon saga?",
+    "answer valid": "central pillar",
+    "answer invalid 1": "Poseidon's temple",
+    "answer invalid 2": "Antartic Ocean",
+    "answer invalid 3": "Pacific Ocean"
+  },
+  {
+    "question": "Who rescued Thetis from Mermaid?",
+    "answer valid": "Julian",
+    "answer invalid 1": "Poseidon",
+    "answer invalid 2": "Baian",
+    "answer invalid 3": "kannon"
+  },
+  {
+    "question": "At what age did Julian become the incarnation of Poseidon?",
+    "answer valid": "16 years",
+    "answer invalid 1": "18 years",
+    "answer invalid 2": "15 years",
+    "answer invalid 3": "20 years"
+  },
+  {
+    "question": "What were the consequences of throwing a fist at Poseidon in the Poseidon Saga?",
+    "answer valid": "bounce yourself",
+    "answer invalid 1": "failed ATK",
+    "answer invalid 2": "be punished",
+    "answer invalid 3": "Blocked by the Mariners"
+  },
+  {
+    "question": "Who finally sealed Poseidon in the Poseidon Saga?",
+    "answer valid": "Athena's pitcher",
+    "answer invalid 1": "The Mug of Hatred",
+    "answer invalid 2": "staff of athena",
+    "answer invalid 3": "Poseidon's Trident"
+  },
+  {
+    "question": "Who finally blocked Poseidon's ATK for Athena in Poseidon Saga?",
+    "answer valid": "kannon",
+    "answer invalid 1": "seiya",
+    "answer invalid 2": "Shiryu",
+    "answer invalid 3": "Thetis"
+  },
+  {
+    "question": "Who is known as the role model of the Golden Saints Knights?",
+    "answer valid": "Knight Saint of Libra",
+    "answer invalid 1": "Knight Saint of Gemiis",
+    "answer invalid 2": "Knight Saint of Pegasus",
+    "answer invalid 3": "Capricorn Saint Knight"
+  },
+  {
+    "question": "With whom does Siren Thetis Supremacy have a secret effect?",
+    "answer valid": "Emperor of the sea Poiseidon",
+    "answer invalid 1": "Sagittarius Seiya",
+    "answer invalid 2": "Sea Dragon Kanon",
+    "answer invalid 3": "Mermaid Sorrento"
+  }
+]

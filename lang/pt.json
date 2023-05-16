@@ -1,0 +1,401 @@
+[
+  {
+    "question": "Qual dos seguintes personagens é a irmã mais velha de Seiya?",
+    "answer valid": "seika",
+    "answer invalid 1": "Marin",
+    "answer invalid 2": "miho",
+    "answer invalid 3": "shina"
+  },
+  {
+    "question": "Quantos anos tem Dohko de Libra?",
+    "answer valid": "261 anos",
+    "answer invalid 1": "18 anos",
+    "answer invalid 2": "263 anos",
+    "answer invalid 3": "30 anos"
+  },
+  {
+    "question": "Qual é o lugar onde Phoenix Ikki realizou as práticas espirituais para se tornar um\n        ",
+    "answer valid": "Ilha da Rainha da Morte",
+    "answer invalid 1": "ilha de andrômeda",
+    "answer invalid 2": "Sibéria",
+    "answer invalid 3": "Santuário"
+  },
+  {
+    "question": "Qual é a relação entre Aquarius Camus e Hyoga?",
+    "answer valid": "mestre e aprendiz",
+    "answer invalid 1": "Amigos",
+    "answer invalid 2": "Pai e filho",
+    "answer invalid 3": "Inimigo"
+  },
+  {
+    "question": "Qual personagem Seiya derrotou para obter a Armadura de Pégaso?",
+    "answer valid": "cássio",
+    "answer invalid 1": "Jônia",
+    "answer invalid 2": "Marin",
+    "answer invalid 3": "shina"
+  },
+  {
+    "question": "Qual dos Cavaleiros Cavaleiros de Ouro tem mais poder psíquico?",
+    "answer valid": "mu",
+    "answer invalid 1": "dohko",
+    "answer invalid 2": "Shaka",
+    "answer invalid 3": "Saga"
+  },
+  {
+    "question": "Que zodíaco é o ex-Papa Shion Gold Saint Knight?",
+    "answer valid": "Áries",
+    "answer invalid 1": "Libra",
+    "answer invalid 2": "Leão",
+    "answer invalid 3": "Sagitário"
+  },
+  {
+    "question": "Qual dos Cavaleiros pode criar um escudo de fogo no jogo?",
+    "answer valid": "Banimento",
+    "answer invalid 1": "ikki",
+    "answer invalid 2": "babel",
+    "answer invalid 3": "mu"
+  },
+  {
+    "question": "Qual dos Cavaleiros é imune ao efeito de veneno no jogo?",
+    "answer valid": "Afrodite",
+    "answer invalid 1": "Milo",
+    "answer invalid 2": "mascara da morte",
+    "answer invalid 3": "ichi"
+  },
+  {
+    "question": "Qual dos Cavaleiros é o único com a habilidade de ressuscitar?",
+    "answer valid": "ikki",
+    "answer invalid 1": "dohko",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "Shaka"
+  },
+  {
+    "question": "Qual dos Cavaleiros é capaz de aumentar a defesa do escudo de proteção para\n        ",
+    "answer valid": "Lagarto",
+    "answer invalid 1": "Baleia",
+    "answer invalid 2": "Perseu",
+    "answer invalid 3": "Cão Maior"
+  },
+  {
+    "question": "Quem é o mestre de Seiya?",
+    "answer valid": "Eagle Marin",
+    "answer invalid 1": "escorpião milo",
+    "answer invalid 2": "Áries Mu",
+    "answer invalid 3": "Libra Dohko"
+  },
+  {
+    "question": "Com qual cavaleiro santo Seiya pode ir para a batalha juntos e combinar técnicas?",
+    "answer valid": "hyōga",
+    "answer invalid 1": "ikki",
+    "answer invalid 2": "evitar",
+    "answer invalid 3": "Shiryu"
+  },
+  {
+    "question": "Qual é o nome do Santo Cavaleiro de Escorpião?",
+    "answer valid": "Milo",
+    "answer invalid 1": "shura",
+    "answer invalid 2": "Apolo",
+    "answer invalid 3": "Afrodite"
+  },
+  {
+    "question": "De quem é a Supremacia 「MSOPETHAMENOS」?",
+    "answer valid": "atena",
+    "answer invalid 1": "seiya",
+    "answer invalid 2": "ikki",
+    "answer invalid 3": "Shiryu"
+  },
+  {
+    "question": "Qual é a técnica combinada de Seiya e Hyoga?",
+    "answer valid": "Pegasus Kite Fist",
+    "answer invalid 1": "Meteoro Pégaso",
+    "answer invalid 2": "pó de diamante",
+    "answer invalid 3": "meteoro de diamante"
+  },
+  {
+    "question": "Se Hyoga morrer, Seiya pode lançar sua técnica de combinação?",
+    "answer valid": "Não se pode",
+    "answer invalid 1": "sim você pode",
+    "answer invalid 2": "Revive Hyoga",
+    "answer invalid 3": "Hyoga nunca morre"
+  },
+  {
+    "question": "Qual dos seguintes cavaleiros tem a capacidade de se regenerar?",
+    "answer valid": "atena",
+    "answer invalid 1": "hyōga",
+    "answer invalid 2": "Capela",
+    "answer invalid 3": "Saga"
+  },
+  {
+    "question": "Qual dos seguintes personagens lança a técnica de matar quando morto?",
+    "answer valid": "Afrodite",
+    "answer invalid 1": "camus",
+    "answer invalid 2": "mu",
+    "answer invalid 3": "Aioria"
+  },
+  {
+    "question": "Até que ponto a Excalibur de Shura precisa ir para detonar seu efeito de drenagem?\n        ",
+    "answer valid": "camada 15",
+    "answer invalid 1": "camada 8",
+    "answer invalid 2": "camada 12",
+    "answer invalid 3": "camada 10"
+  },
+  {
+    "question": "Até onde a Agulha Escarlate de Milo pode ir?",
+    "answer valid": "camada 15",
+    "answer invalid 1": "camada 16",
+    "answer invalid 2": "camada 14",
+    "answer invalid 3": "camada 10"
+  },
+  {
+    "question": "Qual dos Cavaleiros pode aplicar Silêncio a seus inimigos?",
+    "answer valid": "Asterion",
+    "answer invalid 1": "Sírius",
+    "answer invalid 2": "Deu",
+    "answer invalid 3": "jamian"
+  },
+  {
+    "question": "Qual é o efeito da 【Bênção de Deus】 no jogo?",
+    "answer valid": "Imune ao controle de multidão",
+    "answer invalid 1": "Aumentar o Dano do Equipamento",
+    "answer invalid 2": "imune a danos",
+    "answer invalid 3": "Aumento de DEF"
+  },
+  {
+    "question": "Qual das seguintes estatísticas pode aumentar diretamente o dano recebido do\n        ",
+    "answer valid": "Cargas eletricas",
+    "answer invalid 1": "envenenado",
+    "answer invalid 2": "Queimar",
+    "answer invalid 3": "atordoar"
+  },
+  {
+    "question": "Qual é a camada mais alta que a Excalibur de Shura pode alcançar?",
+    "answer valid": "camada 15",
+    "answer invalid 1": "camada 8",
+    "answer invalid 2": "camada 12",
+    "answer invalid 3": "camada 10"
+  },
+  {
+    "question": "Qual das opções a seguir é um efeito de controle de multidão?",
+    "answer valid": "sangramento",
+    "answer invalid 1": "voar com um soco",
+    "answer invalid 2": "Caos",
+    "answer invalid 3": "Silêncio"
+  },
+  {
+    "question": "O que é o 【Caos Effect】 no jogo?",
+    "answer valid": "atacar qualquer alvo",
+    "answer invalid 1": "estar em fuga",
+    "answer invalid 2": "Reduzir a taxa de acertar o alvo",
+    "answer invalid 3": "incapaz de mover-se"
+  },
+  {
+    "question": "Quem é o dublador de Touro?",
+    "answer valid": "Taiten Kusunoki",
+    "answer invalid 1": "Ryu Seira (Jingluo Liu)",
+    "answer invalid 2": "Hosoya Yoshimasa",
+    "answer invalid 3": "Jun Fukuyama"
+  },
+  {
+    "question": "Quantos inimigos Camus pode controlar com seu controle de multidão ao mesmo tempo?",
+    "answer valid": "5",
+    "answer invalid 1": "4",
+    "answer invalid 2": "2",
+    "answer invalid 3": "3"
+  },
+  {
+    "question": "Qual personagem em 《Saint Seiya: The Legend of Justica》 pode petrificar?",
+    "answer valid": "algol",
+    "answer invalid 1": "Aioria",
+    "answer invalid 2": "Moisés",
+    "answer invalid 3": "Ptolomeu"
+  },
+  {
+    "question": "Qual dos seguintes personagens não tem efeito de sangramento ou efeito de veneno?",
+    "answer valid": "Aioria",
+    "answer invalid 1": "shura",
+    "answer invalid 2": "Afrodite",
+    "answer invalid 3": "ichi"
+  },
+  {
+    "question": "Qual dos seguintes personagens é hábil em controlar o Cosmo?",
+    "answer valid": "mascara da morte",
+    "answer invalid 1": "dante",
+    "answer invalid 2": "aiolos",
+    "answer invalid 3": "aldebaran"
+  },
+  {
+    "question": "Quem é nomeado como [o homem mais próximo de Deus] na obra original?",
+    "answer valid": "Shaka",
+    "answer invalid 1": "Saga",
+    "answer invalid 2": "dohko",
+    "answer invalid 3": "aiolos"
+  },
+  {
+    "question": "Quem foi o único que [levantou] Ikki de Phoenix e o atingiu?",
+    "answer valid": "tatsumi",
+    "answer invalid 1": "Shaka",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "evitar"
+  },
+  {
+    "question": "Quantos anos se passaram desde a última Guerra Santa até a atual Guerra Santa?",
+    "answer valid": "243",
+    "answer invalid 1": "213",
+    "answer invalid 2": "217",
+    "answer invalid 3": "223"
+  },
+  {
+    "question": "Qual Knight Saint assassinou com sucesso a Sra. Saori?",
+    "answer valid": "sagitta",
+    "answer invalid 1": "Centauro",
+    "answer invalid 2": "orion",
+    "answer invalid 3": "Lyra"
+  },
+  {
+    "question": "Quantos cavaleiros santos Athena tem?",
+    "answer valid": "88",
+    "answer invalid 1": "12",
+    "answer invalid 2": "78",
+    "answer invalid 3": "85"
+  },
+  {
+    "question": "Que efeito pode dar quando a Agulha Escarlate atinge a última camada máxima?",
+    "answer valid": "morte imediata",
+    "answer invalid 1": "Sem efeito",
+    "answer invalid 2": "reforçar atributos",
+    "answer invalid 3": "Sendo controlado pelo controle de multidão"
+  },
+  {
+    "question": "Quantos inimigos Shura Supremacy pode ter no jogo no máximo?",
+    "answer valid": "3",
+    "answer invalid 1": "2",
+    "answer invalid 2": "1",
+    "answer invalid 3": "5"
+  },
+  {
+    "question": "Que personagem pode combinar técnicas com Aiolia?",
+    "answer valid": "atena",
+    "answer invalid 1": "seiya",
+    "answer invalid 2": "mu",
+    "answer invalid 3": "ikki"
+  },
+  {
+    "question": "Quantos tipos de signo existem em 《Saint Seiya: The Legend of Justica》?",
+    "answer valid": "6 tipos",
+    "answer invalid 1": "4 tipos",
+    "answer invalid 2": "5 tipos",
+    "answer invalid 3": "7 tipos"
+  },
+  {
+    "question": "Quem pode causar danos aos seus inimigos após a morte?",
+    "answer valid": "Fênix Negra",
+    "answer invalid 1": "ikki",
+    "answer invalid 2": "Capela",
+    "answer invalid 3": "Ptolomeu"
+  },
+  {
+    "question": "Quantas estrelas os Cavaleiros precisam escalar para destravar as Armaduras?",
+    "answer valid": "9",
+    "answer invalid 1": "8",
+    "answer invalid 2": "7",
+    "answer invalid 3": "10"
+  },
+  {
+    "question": "Quantas estrelas os Cavaleiros precisam ter para serem disparados automaticamente?",
+    "answer valid": "2",
+    "answer invalid 1": "3",
+    "answer invalid 2": "4",
+    "answer invalid 3": "1"
+  },
+  {
+    "question": "Com qual dos Cavaleiros Cavaleiros de Ouro Marin de Águila tem o melhor relacionamento?",
+    "answer valid": "Aioria",
+    "answer invalid 1": "aiolos",
+    "answer invalid 2": "aldebaran",
+    "answer invalid 3": "Afrodite"
+  },
+  {
+    "question": "O que você precisa acordar para ser um Cavaleiro Santo de Ouro?",
+    "answer valid": "o sétimo sentido",
+    "answer invalid 1": "O sexto Sentido",
+    "answer invalid 2": "o quinto sentido",
+    "answer invalid 3": "o oitavo sentido"
+  },
+  {
+    "question": "Quem é o melhor amigo de Aquário Camus?",
+    "answer valid": "Milo",
+    "answer invalid 1": "shura",
+    "answer invalid 2": "Saga",
+    "answer invalid 3": "hyōga"
+  },
+  {
+    "question": "Quem é o cavaleiro santo mais alto?",
+    "answer valid": "Algethi",
+    "answer invalid 1": "aldebaran",
+    "answer invalid 2": "cássio",
+    "answer invalid 3": "Moisés"
+  },
+  {
+    "question": "Quem é o Cavaleiro Santo mais baixo?",
+    "answer valid": "dohko",
+    "answer invalid 1": "Deu",
+    "answer invalid 2": "ichi",
+    "answer invalid 3": "jamian"
+  },
+  {
+    "question": "Com quem Athena está pressionando na saga de Poseidon?",
+    "answer valid": "pilar central",
+    "answer invalid 1": "templo de Poseidon",
+    "answer invalid 2": "Oceano Antártico",
+    "answer invalid 3": "Oceano Pacífico"
+  },
+  {
+    "question": "Quem resgatou Thetis da sereia?",
+    "answer valid": "juliano",
+    "answer invalid 1": "Poseidon",
+    "answer invalid 2": "baiano",
+    "answer invalid 3": "canhão"
+  },
+  {
+    "question": "Com que idade Julian se tornou a encarnação de Poseidon?",
+    "answer valid": "16 anos",
+    "answer invalid 1": "18 anos",
+    "answer invalid 2": "15 anos",
+    "answer invalid 3": "20 anos"
+  },
+  {
+    "question": "Quais foram as consequências de dar um soco em Poseidon na saga Poseidon?",
+    "answer valid": "salte-se",
+    "answer invalid 1": "falha ATK",
+    "answer invalid 2": "ser punido",
+    "answer invalid 3": "Bloqueado pelos marinheiros"
+  },
+  {
+    "question": "Quem finalmente selou Poseidon na saga Poseidon?",
+    "answer valid": "jarro de Atena",
+    "answer invalid 1": "A caneca de ódio",
+    "answer invalid 2": "cajado de atena",
+    "answer invalid 3": "Tridente de Poseidon"
+  },
+  {
+    "question": "Quem finalmente bloqueou o ATK de Poseidon para Athena em Poseidon Saga?",
+    "answer valid": "canhão",
+    "answer invalid 1": "seiya",
+    "answer invalid 2": "Shiryu",
+    "answer invalid 3": "Tétis"
+  },
+  {
+    "question": "Quem é conhecido como o modelo dos Cavaleiros dos Cavaleiros de Ouro?",
+    "answer valid": "Cavaleiro Santo de Libra",
+    "answer invalid 1": "Cavaleiro Santo de Gêmeos",
+    "answer invalid 2": "Cavaleiro Santo de Pégaso",
+    "answer invalid 3": "Cavaleiro de Capricórnio"
+  },
+  {
+    "question": "Com quem Siren Thetis Supremacy tem um efeito secreto?",
+    "answer valid": "Imperador do mar Poiseidon",
+    "answer invalid 1": "Sagitário Seiya",
+    "answer invalid 2": "Dragão Marinho Kanon",
+    "answer invalid 3": "sereia sorrento"
+  }
+]
