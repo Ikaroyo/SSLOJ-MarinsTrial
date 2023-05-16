@@ -116,11 +116,14 @@ document.addEventListener('DOMContentLoaded', function () {
                         pregunta['answer invalid 2'],
                         pregunta['answer invalid 3']
                     ];
-                    respuestas.forEach(respuesta => {
+                    respuestas.forEach((respuesta, index) => {
                         const respuestaLi = document.createElement('li');
                         respuestaLi.classList.add('list-group-item');
                         respuestaLi.textContent = respuesta;
                         respuestaDiv.appendChild(respuestaLi);
+                        if (index === 0) {
+                            respuestaLi.classList.add('valid');
+                        }
                     });
                     faqDiv.appendChild(respuestaDiv);
                 });

@@ -153,6 +153,29 @@ img.background {
     box-shadow: 0px 0px 20px #33ff44;
 }
 
+.valid:hover {
+    /* call the animation indefinitely */
+    animation: valid 1s infinite;
+
+
+
+}
+
+/* animation that change box-shadow: 0px 0px 20px #33ff44; to box-shadow: 0px 0px 30px #33ff44; and back box-shadow: 0px 0px 20px #33ff44;*/
+@keyframes valid {
+    0% {
+        box-shadow: 0px 0px 20px #33ff44;
+    }
+    50% {
+        box-shadow: 0px 0px 30px #33ff44;
+    }
+    100% {
+        box-shadow: 0px 0px 20px #33ff44;
+    }
+}
+
+
+
 
 
 
